@@ -14,5 +14,5 @@ The program has been tested on Ubuntu 16.04 with g++ 5.4.0.
 
 ## Usage
 ```
-$ ./confMap ../Data/brain.obj ../Output/sphConfOp
+$ ./conformalMap ../Data/brain.obj ../Output/sphericalConfOp
 ```

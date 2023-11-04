@@ -8,4 +8,4 @@ set(SOURCES Core/Edge.cpp Core/Face.cpp Core/FException.cpp Core/HalfEdge.cpp
 			Core/OBJFileReader.cpp Core/Parser.cpp Core/Point.cpp Core/Solid.cpp Core/SolidDelegate.cpp 
 			Core/StringTokenizer.cpp Core/TopologyException.cpp Core/Trait.cpp Core/Vertex.cpp)
 
-add_executable(confMap confMap.cpp ${SOURCES})
+add_executable(conformalMap conformalMap.cpp ${SOURCES})
