@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.1)
 project(SHM)
 set(CMAKE_CXX_STANDARD 11)
 
-include_directories(src)
+include_directories(Core)
 
-set(SOURCES src/Edge.cpp src/Face.cpp src/FException.cpp src/HalfEdge.cpp 
-			src/OBJFileReader.cpp src/Parser.cpp src/Point.cpp src/Solid.cpp src/SolidDelegate.cpp 
-			src/StringTokenizer.cpp src/TopologyException.cpp src/Trait.cpp src/Vertex.cpp)
+set(SOURCES Core/Edge.cpp Core/Face.cpp Core/FException.cpp Core/HalfEdge.cpp 
+			Core/OBJFileReader.cpp Core/Parser.cpp Core/Point.cpp Core/Solid.cpp Core/SolidDelegate.cpp 
+			Core/StringTokenizer.cpp Core/TopologyException.cpp Core/Trait.cpp Core/Vertex.cpp)
 
 add_executable(confMap confMap.cpp ${SOURCES})
