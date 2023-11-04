@@ -11,7 +11,6 @@
 
 using namespace MeshLib;
 using namespace std;
-using namespace MeshLib;
 
 #define DELTA_T 1e-2
 #define DELTA_E 1e-5
